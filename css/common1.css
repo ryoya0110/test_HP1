@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+
+body {
+	white-space: nowrap;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+li {
+	list-style: none;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+
+.service_list li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 150px;
+	white-space: normal;
+	text-align: left;
+}
+.service_list li img {
+	width: 400px;
+	z-index: 1;
+}
+.service_list li h3 {
+	font-size: 30px;
+	position: relative;
+	top: -80px;
+}
+.service_list li p {
+	letter-spacing: 2px;
+	line-height: 1.5;
+	position: relative;
+	top: -20px;
+}
+.service_list li:nth-of-type(2) p {
+	top: 30px;
+}
+.service_list li:nth-of-type(3) p {
+	top: 40px;
+}
+.service_list li:nth-of-type(even) {
+	flex-flow: row-reverse;
+}
+.service_list li:nth-of-type(even) .service_txt {
+	position: relative;
+	left: 30px;
+	top: 70px;
+}
+.service_txt {
+	background: #e0e0e0;
+	width: 500px;
+	height: 170px;
+	padding: 10px 50px 50px 80px;
+	position: relative;
+	top: 50px;
+	left: -30px;
+}

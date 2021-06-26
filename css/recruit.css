@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+
+.recruit {
+	margin: 150px 100px;
+}
+#recruit_list1,
+#recruit_list2,
+#recruit_list3 {
+display: inline-block;
+}
+.recruit_list {
+width: 100%;
+}
+.recruit_list h2 {
+	font-size: 30px;
+	line-height: 0.8;
+	padding-bottom: 7%;
+	position: relative;
+	bottom: 70px;
+}
+.recruit_list h3 {
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 7%;
+}
+.recruit_list p {
+	width: 80%;
+	font-size: 12px;
+	letter-spacing: 3px;
+	line-height: 2.6;
+	white-space: normal;
+}
+.recruit_item1 {
+	width: 40%;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+.recruit_item2 {
+	width: 50%;
+	float: right;
+	margin-top: 10%;
+	position: relative;
+	z-index: 2;
+}
+.recruit_bg {
+	background: #eee;
+	width: 85%;
+	height: auto;
+	float: right;
+	position: relative;
+	bottom: 200px;
+	z-index: 0;
+}
+.recruit_element {
+	padding: 20% 0 5%;
+}
+.recruit_element p {
+font-size: 150px;
+color: #fff;
+white-space: nowrap;
+overflow: hidden;
+float: right;
+}
