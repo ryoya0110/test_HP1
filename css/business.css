@@ -21,7 +21,7 @@
 	letter-spacing: 2px;
 	line-height: 1.5;
 	position: relative;
-	top: -20px;
+	top: 10px;
 }
 .service_list li:nth-of-type(2) p {
 	top: 30px;
